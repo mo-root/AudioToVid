@@ -1,7 +1,4 @@
 # Audio to Video
-![App Screenshot](https://omicron.aeon.co/images/7821264b-1809-40c8-9f51-e9908037bbcd/header_phenomena-waves-landscape-2.jpg)
-
-
 
 ![AudiToVideo – index](https://user-images.githubusercontent.com/59801139/213307981-56ee26fe-8f49-4d0b-9d2d-6244830d178a.gif)
 
