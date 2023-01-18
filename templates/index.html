@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload File</title>
+    <style>
+      /* Add glassmorphism styles */
+      body {
+        background: linear-gradient(to bottom, #f7f7f7 0%, #e5e5e5 100%);
+      }
+      input[type="file"] {
+        background: linear-gradient(to bottom, #f7f7f7 0%, #e5e5e5 100%);
+        border: none;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+      }
+      input[type="file"]:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+      }
+    input[type="submit"] {
+        background: linear-gradient(to bottom, #f7f7f7 0%, #e5e5e5 100%);
+        border: none;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        border: 20px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        margin-left: 10px;
+    }
+
+</style>
+  </head>
+  <body>
+        <div class="container">
+      <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+      </form>
+      <div class="cube">
+      </div>
+    </div>
+  </body>
+</html>
